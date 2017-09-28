@@ -1,0 +1,21 @@
+#overview {
+  width: 1150px; }
+
+#overview h1 {
+  font-size: 70px;
+  position: absolute;
+  right: 20px;
+  top: 5px; }
+
+.page {
+  width: 1195px;
+  height: 768px;
+  position: absolute;
+  left: 171px;
+  top: 63px;
+  background-color: brown; }
+  .page overview-container {
+    width: 800px;
+    height: 425px;
+    margin-left: 60px;
+    margin-top: 140px; }

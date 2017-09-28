@@ -1,0 +1,313 @@
+.login-main {
+  background-image: url(../img/login-banner.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 768px; }
+
+.welcome {
+  font-size: 5em;
+  font-weight: 900;
+  color: white;
+  width: 62.5%;
+  margin: 0 auto;
+  padding-top: 80px;
+  padding-bottom: 100px; }
+
+#login {
+  width: 20.13888888888889%;
+  margin: 0 auto;
+  background-color: white; }
+
+.login-container {
+  width: 100%;
+  height: 350px; }
+
+.login-container h2 {
+  font-size: 2.500em;
+  font-weight: 900;
+  text-align: center;
+  padding-bottom: 10px; }
+
+.login-container label {
+  font-size: 1.250em;
+  font-weight: bold;
+  width: 100%;
+  padding: 5px 0px;
+  padding-left: 15px; }
+
+.login-container input {
+  font-size: 1.250em;
+  width: 100%;
+  border: none;
+  padding: 10px 0px; }
+
+.login-container input::-webkit-input-placeholder {
+  color: white; }
+
+.login-container input:-ms-input-placeholder {
+  color: white; }
+
+.login-container input::placeholder {
+  color: white; }
+
+#username {
+  background-color: #00abff;
+  padding-left: 15px;
+  width: 100%;
+  color: white; }
+
+#password {
+  background-color: #003561;
+  padding-left: 15px;
+  width: 100%;
+  color: white; }
+
+#submitBtn {
+  width: 100%;
+  color: white; }
+
+.forgot-pass {
+  font-size: 1.250em;
+  text-decoration: none;
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+  color: black;
+  display: block; }
+
+#mainMenu {
+  background-color: #003561;
+  display: block; }
+  #mainMenu .mainMenu-container {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 172px;
+    color: white; }
+  #mainMenu a {
+    display: inline-block;
+    vertical-align: middle;
+    color: white; }
+  #mainMenu p {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 10px; }
+  #mainMenu .fa {
+    padding-left: 25px;
+    font-size: 23px;
+    vertical-align: middle; }
+  #mainMenu .fa:hover {
+    text-shadow: 0px 0px 5px white; }
+  #mainMenu .img-container {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px 0px;
+    padding-left: 595px;
+    padding-top: 15px; }
+
+.sidebar {
+  display: block;
+  position: fixed;
+  width: 12.5%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #00abff;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+  color: white; }
+  .sidebar h1 {
+    width: 100%;
+    text-align: center;
+    line-height: 63px; }
+  .sidebar a {
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
+    padding-top: 15px;
+    padding-left: 25px;
+    vertical-align: middle;
+    display: block; }
+  .sidebar a:hover {
+    border-left: 5px solid white;
+    vertical-align: middle; }
+  .sidebar .fa {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    display: block; }
+  .sidebar .fa:hover {
+    text-shadow: 0px 0px 5px white; }
+
+.sidebar button {
+  width: 90px;
+  position: absolute;
+  bottom: 50px;
+  left: 43px;
+  border: none;
+  background-color: transparent;
+  color: white;
+  display: block; }
+
+.sidebar button:hover {
+  text-shadow: 0px 0px 5px white; }
+
+#activeAss {
+  width: 630px; }
+
+#activeAss h1 {
+  font-size: 70px;
+  position: absolute;
+  right: 20px;
+  top: 5px; }
+
+.page {
+  width: 1195px;
+  height: 768px;
+  position: absolute;
+  left: 171px;
+  top: 63px; }
+  .page .activeAss-container {
+    width: 620px;
+    height: 240px;
+    background-color: white;
+    margin-left: 264px;
+    margin-top: 115px;
+    padding-top: 10px;
+    padding-left: 15px;
+    -webkit-box-shadow: 0px 0px 10px #bcbec0;
+    box-shadow: 0px 0px 10px #bcbec0; }
+  .page .activeAss-container h2 {
+    width: 250px; }
+  .page .activeAss-container .underline {
+    width: 250px;
+    height: 5px;
+    background-color: #003561;
+    margin-bottom: 5px; }
+
+#myChart {
+  background-color: white;
+  padding-bottom: 10px;
+  position: absolute;
+  right: 40px;
+  top: 115px;
+  padding: 10px;
+  -webkit-box-shadow: 0px 0px 10px #bcbec0;
+  box-shadow: 0px 0px 10px #bcbec0; }
+
+.calendar-container {
+  width: 500px;
+  height: 430px;
+  background-color: white;
+  padding-bottom: 10px;
+  position: absolute;
+  right: 311px;
+  top: 390px;
+  -webkit-box-shadow: 0px 0px 10px #bcbec0;
+  box-shadow: 0px 0px 10px #bcbec0;
+  padding: 20px; }
+
+.report-container {
+  width: 300px;
+  height: 430px;
+  background-color: white;
+  margin-left: 40px;
+  margin-top: 35px;
+  padding-top: 10px;
+  padding-left: 15px;
+  -webkit-box-shadow: 0px 0px 10px #bcbec0;
+  box-shadow: 0px 0px 10px #bcbec0; }
+  .report-container h2 {
+    width: 250px; }
+  .report-container .underline {
+    width: 250px;
+    height: 5px;
+    background-color: #003561;
+    margin-bottom: 5px; }
+  .report-container h3 {
+    font-weight: 600;
+    font-size: 17px; }
+
+.online-container {
+  width: 230px;
+  height: 430px;
+  background-color: white;
+  position: absolute;
+  right: 40px;
+  top: 390px;
+  padding-top: 10px;
+  padding-left: 15px;
+  -webkit-box-shadow: 0px 0px 10px #bcbec0;
+  box-shadow: 0px 0px 10px #bcbec0; }
+  .online-container h2 {
+    width: 160px; }
+  .online-container .underline {
+    width: 160px;
+    height: 5px;
+    background-color: #003561;
+    margin-bottom: 5px; }
+  .online-container h3 {
+    font-weight: 600;
+    font-size: 17px; }
+
+#assignments {
+  width: 1150px; }
+
+#assignments h1 {
+  font-size: 70px;
+  position: absolute;
+  right: 20px;
+  top: 5px; }
+
+.page {
+  width: 1195px;
+  height: 768px;
+  position: absolute;
+  left: 171px;
+  top: 63px; }
+  .page .container-left {
+    width: 450px;
+    height: 425px;
+    margin-left: 60px;
+    margin-top: 140px; }
+  .page .container-right {
+    width: 620px;
+    height: 305px;
+    margin-left: 520px;
+    margin-top: -425px; }
+  .page .assignments-container a {
+    text-decoration: none;
+    color: black; }
+  .page .assignments-container a:hover {
+    color: #00abff; }
+
+#overview {
+  width: 1150px; }
+
+#overview h1 {
+  font-size: 70px;
+  position: absolute;
+  right: 20px;
+  top: 5px; }
+
+.page {
+  width: 1195px;
+  height: 2320px;
+  position: absolute;
+  left: 171px;
+  top: 63px; }
+  .page .overview-container {
+    width: 1080px;
+    height: 2180px;
+    margin-left: 60px;
+    margin-top: 140px; }
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+title {
+  display: none; }

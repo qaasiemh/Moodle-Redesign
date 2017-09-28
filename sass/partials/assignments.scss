@@ -1,0 +1,43 @@
+#assignments {
+    width: 1150px;
+}
+
+
+#assignments h1 {
+    font-size: 70px;
+    position: absolute;
+    right: 20px;
+    top: 5px;
+}
+
+.page {
+    width: 1195px;
+    height: 768px;
+    position: absolute;
+    left: 171px;
+    top: 63px;
+    
+    .container-left {
+        width: 450px;
+        height: 425px;
+        margin-left: 60px;
+        margin-top: 140px;
+    }
+    
+    .container-right {
+        width: 620px;
+        height: 305px;
+        margin-left: 520px;
+        margin-top: -425px;
+    }
+    
+    .assignments-container a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .assignments-container a:hover {
+        color: #00abff;
+    }
+    
+}

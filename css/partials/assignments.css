@@ -1,0 +1,16 @@
+#assignments {
+  width: 630px; }
+
+#assignments h1 {
+  font-size: 70px;
+  position: absolute;
+  right: 20px;
+  top: 5px; }
+
+.page {
+  width: 1195px;
+  height: 768px;
+  position: absolute;
+  left: 171px;
+  top: 63px;
+  background-color: brown; }

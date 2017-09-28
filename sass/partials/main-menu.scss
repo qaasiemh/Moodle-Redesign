@@ -1,0 +1,51 @@
+
+#mainMenu {
+    background-color: #00abff;
+    display: block;
+    
+    .mainMenu-container {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 172px;
+        color: white;
+    }
+
+    a {
+        display: inline-block;
+        vertical-align: middle;
+        color: white;
+    }
+
+    p {
+        display: inline-block;
+        vertical-align: middle;
+        padding-left: 10px;
+    }
+
+    .fa {
+        padding-left: 25px;
+        font-size: 23px;
+        vertical-align: middle;
+    }
+    
+    .fa:hover {
+        text-shadow: 0px 0px 5px white;
+    }
+
+    .img-container {
+        display: inline-block;
+        vertical-align: middle;
+        padding: 10px 0px;
+        padding-left: 595px;
+        padding-top: 15px;
+    }
+    
+    
+
+} 
+
+
+
+
+
+
